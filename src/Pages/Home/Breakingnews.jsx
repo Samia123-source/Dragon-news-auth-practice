@@ -1,5 +1,7 @@
-import Marquee from "react-fast-marquee";
+import * as MarqueeModule from "react-fast-marquee";
 import { Link } from "react-router-dom";
+
+const Marquee = MarqueeModule.default?.default ?? MarqueeModule.default;
 
 
 
@@ -9,7 +11,9 @@ const BreakingNews = () => {
         <button className="btn btn-secondary">Breaking News</button>
 
     <Marquee pauseOnHover={true} speed={300}>
-      <Link>dfadfaf adfasdfadf</Link>
+      <Link className="mr-12" to='/'>dfadfaf adfasdfadf</Link>
+      <Link className="mr-12" to='/'>dfadfaf adfasdfadf</Link>
+      <Link className="mr-12" to='/'>dfadfaf adfasdfadf</Link>
     </Marquee>
     </div>
   )
