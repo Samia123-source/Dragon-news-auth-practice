@@ -6,9 +6,9 @@ import qZone3 from '../../../assets/qZone3.png'
 const Rightsidenav = () => {
   return (
    <div>
-     <div className="p-4 mb-6">
-        <h2 className="text-3xl">Login With</h2>
-        <button className="btn btn-outline w-full ">
+     <div className="p-4 mb-6 space-y-3">
+        <h2 className="text-3xl ">Login With</h2>
+        <button className="btn btn-outline w-full border">
 <FaGoogle></FaGoogle>  Login with Google
 </button>
         <button className="btn btn-outline w-full border">
